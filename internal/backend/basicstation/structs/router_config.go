@@ -23,6 +23,7 @@ var regionNameMapping = map[band.Name]string{
 	band.KR920: "KR920",
 	band.US915: "US902",
 	band.RU864: "RU864",
+	band.KZ865: "KZ865",
 }
 
 // RouterConfig implements the router-config message.
