@@ -79,3 +79,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0 // indirect
 )
+
+replace github.com/brocaar/lorawan v0.0.0-20220207095711-d675789e16ab => github.com/rissw/lorawan v0.0.0-20230227095355-4013341f5078
+
+replace github.com/chirpstack/chirpstack/api/go/v4 => github.com/rissw/chirpstack/api/go/v4 v4.0.0-20230227143620-c909ffd3f525
