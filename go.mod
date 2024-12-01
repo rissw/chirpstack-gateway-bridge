@@ -70,7 +70,7 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225 // indirect
-	golang.org/x/net v0.22.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/oauth2 v0.18.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
@@ -82,3 +82,11 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// replace github.com/brocaar/lorawan v0.0.0-20220207095711-d675789e16ab => github.com/rissw/lorawan v0.0.0-20230227095355-4013341f5078
+//
+// replace github.com/chirpstack/chirpstack/api/go/v4 => github.com/rissw/chirpstack/api/go/v4 v4.0.0-20230227143620-c909ffd3f525
+
+replace github.com/brocaar/lorawan v0.0.0-20230609081225-559f55342122 => github.com/rissw/lorawan v0.0.0-20241201010005-6f2a700b2730
+
+replace github.com/chirpstack/chirpstack/api/go/v4 v4.6.0 => github.com/rissw/chirpstack/api/go/v4 v4.0.0-20241201050001-60f4d21eefd6
